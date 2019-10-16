@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500');
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 10px;
+    padding: 1px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+#description {
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 120%;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+body {
+    background: #24272e;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    align-self: auto;
+}
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+.lables,
+.rightTab {
+    display: inline-block;
+}
+
+ui {
+    display: block;
+}
+
+.input-filed {
+    height: 18px;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+
+/* overwriting .input-filed/number */
+
+#number {
+    width: 40px;
+    margin-left: 15px;
+}
+
+#checkbox-lable {
+    margin-left: 10px;
+}
+
+#dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.lables-comment,
+.rightTab-comment {
+    display: block;
+}
+
+#comments {
+    margin-left: 30px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
